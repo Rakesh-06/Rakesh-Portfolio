@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta  charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400i,700,900" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row heading">
+        <div class="col-md-6">
+          <img class="title-logo img-responsive" src="images/logo-min.jpg" alt="portfolio-logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase title-note">
+          <h1 class="title-super  text-thin">Rakesh</h1>
+          <h4>Front-end Ninja, Musician</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="line">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive img-center" src="images/center-image-min.jpg" alt="Center-image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row text-center images-995">
+
+        <div class="col-md-4">
+          <img class="img-portfolio img-responsive" src="images/rakesh-min.jpg" alt="Profile-Picture" data-toggle="modal" data-target="#profile-1">
+          <h3 class="text-uppercase">My Aim</h3>
+          <p>https://github.com/udacity/My-Aim</p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-portfolio img-responsive" src="images/animal-trade-min.jpg" alt="Animal-Trading-Card" data-toggle="modal" data-target="#animal-trade-2">
+          <h3 class="text-uppercase">Animal trading card</h3>
+          <p>https://github.com/udacity/Animal-trading-card</p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-portfolio img-responsive" src="images/mockup-min.jpg" alt="Mockup-design" data-toggle="modal" data-target="#mockup-3">
+          <h3 class="text-uppercase">Mockup Design</h3>
+          <p>https://github.com/udacity/Mockup-design</p>
+        </div>
+      </div>
+      <div class="row">
+        <hr>
+        <footer>
+          <p class="text-footer">* Always be passionate about your life *</p>
+        </footer>
+      </div>
+    </div>
+
+<!-- modal for my profile -->
+    <div class="modal fade" id="profile-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">My Ultimate Aim Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/music-min.png">
+                    <h4 class="text-uppercase">A Short Description</h4>
+                  <article class="description">
+                    <p>I'm Rakesh Selvarajkumar, an Engineering graduated from Tamilnadu. With a lot of interest and enthusiasm, I'm doing this Front-end developer course. My ultimate aim is to create the world's best Musical tutorial website.</p>
+                    <p>Music is the world's lovable art and I would like to educate the world about the Indian style of Music. It communicate's with the soul. Love Music</p>
+                  </article>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Exit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- modal for animal trading project     -->
+    <div class="modal fade" id="animal-trade-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">Animal Trading Card Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/animal2-min.jpg">
+                    <article class="description">
+                      <p>This was my initial project when I started with the baisc of html and css. It was really interesting for placing first foot with this project. It was about the Koala Bear</p>
+                      <p>Koala Bear is one of the sweetest animals of the world. the special fact about them is that, they sleep for almost 22 hours a day. Wow!!!</p>
+                    </article>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- modal for mockup     -->
+    <div class="modal fade" id="mockup-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">Mockup Portfolio Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/mockup-modal-min.jpg">
+                    <article class="description">
+                      <p>This was my first project in this class. I learned a lot about HTML and CSS. Its really interesting to use responsive concept and a great experience of learning.</p>
+                    </article>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
+
+
+
+
+
+
+@media screen and (min-width: 1px) and (max-width: 535px) {
+  html,
+  body{
+    background-color: #C29540;
+  }
+  .map-title {
+    font-family: 'Kaushan Script',cursive;
+    font-size: 25px;
+    color: #000000;
+    background-color: #B8EC9A;
+    text-shadow: 1.5px 1.5px #FFFFFF;
+  }
+
+  .top-logo {
+    box-shadow: 1.5px 1.5px 13px #FFFFFF;
+  }
+
+  .title-block {
+    background-color: #908A80;
+  }
+
+  .options-box {
+    background-color: #B8EC9A;
+  }
+
+  .temple-names {
+    font-family: 'Righteous', cursive;
+    color: #000000;
+    font-size: 12px;
+    list-style: disc;
+  }
+
+  #map {
+    border: 2px solid #FF4747;
+  }
+}
+
+@media screen and (min-width: 536px) and (max-width: 993px) {
+  html,
+  body{
+    background-color: #EB5858;
+  }
+  .map-title {
+    font-family: 'Righteous',cursive;
+  }
+  .title-block {
+    background-color: #BFA673;
+  }
+
+  .options-box {
+    background-color: #C6CE4E;
+  }
+}
